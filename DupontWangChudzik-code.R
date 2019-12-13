@@ -20,7 +20,7 @@ emailEdges <-  read.csv("./data/DupontWangChudzik2-dataset.csv", stringsAsFactor
 emailAttributes <- read.csv("./data/DupontWangChudzik1-dataset.csv", stringsAsFactors = FALSE)
 network.df <- read.csv('./data/DupontWangChudzik3-dataset.csv"', stringsAsFactors = FALSE)
 emails.df <- read.csv('./data/DupontWangChudzik4-dataset.csv"', stringsAsFactors = FALSE)
-stopwords.df <- read.table('./data/stopwords_en.txt', stringsAsFactors = FALSE)
+stopwords.df <- read.table('./data/DupontWangChudzik5-dataset.txt', stringsAsFactors = FALSE)
 
 wd <- getwd()
 wdout <- paste(wd, "data", sep = "/")
